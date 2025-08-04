@@ -11,9 +11,15 @@ class homeController extends Controller
 
    
     
+   
     function Home() {
         //fetch products from the Products model
-        $products_details = Products::all();
+        $products_details = Products::inRandomOrder()->limit(10)->get();
+
+        //products filtered by category
+        $products_drinks = Products::where('category' , 'drinks')->limit(10)->get();
+
+
         return view('welcome',
         [
             'products' => $products_details
