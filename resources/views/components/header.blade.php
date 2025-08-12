@@ -20,7 +20,7 @@
             <div class="search-bar row bg-light p-2 my-2 rounded-4">
               <div class="col-md-4 d-none d-md-block">
                 <select class="form-select pointer shadow-none border-0 bg-transparent">
-                  <option>All Categories</option>
+                  <option>Categories</option>
                   <option>Groceries</option>
                   <option>Drinks</option>
                   <option>Chocolates</option>

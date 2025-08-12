@@ -115,7 +115,7 @@ CSS STRUCTURE:
 
 /* Fonts */
 :root {
-    --body-font           : "Open Sans", sans-serif;
+    --body-font           : "Poppins", sans-serif;
     --heading-font        : "Nunito", sans-serif;
 }
 
@@ -131,7 +131,7 @@ body {
 
   --bs-light-rgb: 248, 248, 248;
 
-  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-font-sans-serif: "Poppins", sans-serif;
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
@@ -549,6 +549,7 @@ h1,h2,h3,h4,h5,h6 {
 .product-item {
   position: relative;
   padding: 16px;
+  height: 95% !important;
   background: #FFFFFF;
   border: 1px solid #FBFBFB;
   box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.04);
@@ -588,32 +589,16 @@ h1,h2,h3,h4,h5,h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
-  border: 1px solid #d8d8d8;
   transition: all 0.3s ease-out;
+  text-decoration: none;
 }
-.product-item .btn-wishlist:hover {
-  background: rgb(240, 56, 56);
-  color: #fff;
+
+.product-item .btn-wishlist i {
+  font-size: 25px;
+  color: var(--light-dark-color);
 }
-.product-item .qty {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: #9D9D9D;
-}
-.product-item .rating {
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 18px;
-  text-transform: capitalize;
-  color: #222222;
-}
-.product-item .rating iconify-icon {
-  color: #FFC43F;
-}
+
+
 .product-item .price {
   display: block;
   width: 100%;
@@ -623,36 +608,18 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: capitalize;
   color: #222222;
 }
-.product-item .product-qty {
-  width: 85px;
+
+.addToBasket i {
+  font-size: 25px;
+  color: var(--light-dark-color);
 }
+
 .product-item .btn-link {
   text-decoration: none;
 }
-.product-item #quantity {
-  height: auto;
-  width: 28px;
-  text-align: center;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-.product-item .btn-number {
-  width: 26px;
-  height: 26px;
-  line-height: 1;
-  text-align: center;
-  background: #FFFFFF;
-  border: 1px solid #E2E2E2;
-  border-radius: 6px;
-  color: #222;
-  padding: 0;
-}
 
 /* cart */
-.cart .product-qty {
-  min-width: 130px;
-}
+
 
 /* floating image */
 .image-float {

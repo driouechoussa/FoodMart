@@ -32,19 +32,19 @@
                 </a>
                 <a href="index.html" class="nav-link category-item swiper-slide">
                   <img src="{{ asset('images/icons/icon-soft-drinks-bottle.png') }}" alt="Category Thumbnail">
-                  <h3 class="category-title">Fruits & Veges</h3>
+                  <h3 class="category-title">Oils & spices</h3>
                 </a>
                 <a href="index.html" class="nav-link category-item swiper-slide">
                   <img src="{{ asset('images/icons/icon-wine-glass-bottle.png') }}" alt="Category Thumbnail">
-                  <h3 class="category-title">Fruits & Veges</h3>
+                  <h3 class="category-title">Drinks</h3>
                 </a>
                 <a href="index.html" class="nav-link category-item swiper-slide">
                   <img src="{{ asset('images/icons/icon-animal-products-drumsticks.png') }}" alt="Category Thumbnail">
-                  <h3 class="category-title">Fruits & Veges</h3>
+                  <h3 class="category-title">Meats & fishes</h3>
                 </a>
                 <a href="index.html" class="nav-link category-item swiper-slide">
                   <img src="{{ asset('images/icons/icon-bread-herb-flour.png') }}" alt="Category Thumbnail">
-                  <h3 class="category-title">Fruits & Veges</h3>
+                  <h3 class="category-title">Canned food</h3>
                 </a>
        
               </div>

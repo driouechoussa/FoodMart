@@ -19,10 +19,15 @@ class homeController extends Controller
         //products filtered by category
         $products_drinks = Products::where('category' , 'drinks')->limit(10)->get();
 
+        $products_fruits = Products::where('category' , 'fruits')->limit(10)->get();
+
+
 
         return view('welcome',
         [
-            'products' => $products_details
+            'products' => $products_details,
+            'drinks' => $products_drinks,
+            'fruits' => $products_fruits
         ]
     );
     }
